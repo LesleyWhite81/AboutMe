@@ -1,0 +1,67 @@
+.HomeBanner {
+    background-color: rgb(193, 227, 245);
+    height: 200px;  
+  
+}
+
+nav {
+    text-align: end;
+      
+}
+
+nav ul {
+    
+    list-style-type:none;
+}
+
+li {
+    display: inline-block;
+    padding: 20px;
+}
+
+
+
+img {
+     /* Center the content */
+     align-items: center;
+     display: flex;
+     justify-content: center;
+ 
+     /* Border */
+     border: 2px solid #d1d5db;
+     border-radius: 0px 50% 50% 50%;
+
+     position: absolute;
+     top:150px
+}
+
+h1 { 
+    text-align: center;
+    font-size: 100px;
+    margin-top: 200px;
+    padding-top: 30px;
+   
+}
+
+article {
+    position: relative;
+    top: 150px;
+    left: 150px;
+}
+
+
+section {
+    display: inline-block;
+    width: 25%;
+    margin: auto;
+    padding: 20px;
+}
+
+section h3 {
+    text-align: center;
+}
+
+footer {
+    background-color: rgb(193, 227, 245);
+
+}
