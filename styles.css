@@ -1,52 +1,61 @@
 .HomeBanner {
-    background-color: rgb(193, 227, 245);
-    height: 200px;  
-  
+  background-color: rgb(193, 227, 245);
+    
+  border: 1px solid red;
+  position: relative;
+  top: 60px;
+  max-height: 50%;
+  max-width: 100%;
 }
 
 nav {
     text-align: end;
+    border: 1px solid rgb(215, 155, 16);
       
 }
 
 nav ul {
-    
+    border: 1px solid rgb(215, 155, 16);
     list-style-type:none;
 }
 
 li {
     display: inline-block;
     padding: 20px;
+    border: 1px solid rgb(215, 155, 16);
 }
 
 
 
 img {
-     /* Center the content */
-     align-items: center;
-     display: flex;
-     justify-content: center;
- 
+     
      /* Border */
      border: 2px solid #d1d5db;
      border-radius: 0px 50% 50% 50%;
 
      position: absolute;
-     top:150px
+     top: 90px;
+     z-index: 1;
+    height: auto;
+    max-width: 50%;
+    width: 400px; 
+     
+     
 }
 
 h1 { 
     text-align: center;
-    font-size: 100px;
-    margin-top: 200px;
-    padding-top: 30px;
+    font-size: 100px; 
+    border: 1px solid rgb(96, 16, 215);
+
    
 }
 
 article {
-    position: relative;
-    top: 150px;
-    left: 150px;
+   margin-top: 15%; 
+   display: flex;
+   justify-content: center;
+   border: 5px solid rgb(215, 155, 16);
 }
 
 
@@ -55,6 +64,7 @@ section {
     width: 25%;
     margin: auto;
     padding: 20px;
+    border: 5px solid rgb(11, 4, 22);
 }
 
 section h3 {
@@ -64,4 +74,8 @@ section h3 {
 footer {
     background-color: rgb(193, 227, 245);
 
+}
+
+main {
+    border: 5px solid rgb(240, 23, 157);
 }
