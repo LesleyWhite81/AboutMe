@@ -1,71 +1,127 @@
 main {
     border: 5px solid rgb(240, 23, 157);
+    
 }
 
 
   
   /* Navigation and page banner */
-  
-  .HomeBanner {
-  background-color: rgb(193, 227, 245);
-    
-  border: 1px solid red;
-  position: relative;
-  top: 60px;
-  max-height: 50%;
-  max-width: 100%;
-}
+
+
 
 nav {
-    text-align: end;
-    border: 1px solid rgb(215, 155, 16);
-      
+    text-align: end;      
 }
 
 nav ul {
-    border: 1px solid rgb(215, 155, 16);
     list-style-type:none;
 }
 
 li {
     display: inline-block;
     padding: 20px;
-    border: 1px solid rgb(215, 155, 16);
+}
+
+.topSection {
+    display: flex;
+}
+
+.aboutMeSection {
+        
+        max-width: 40%;  
+        display: flex;
+        border: 5px solid green; 
+        flex-basis:  100%;
+}
+      
+.aboutMeBackground {
+      background-color: rgb(177, 177, 190);
+      border: 5px solid green;
+      height: 40rem;
+      border-radius: 0px 0% 50% 0%;   
+      padding: 60px 50px 60px;  
+      margin-left: 10rem;         
+}
+
+.aboutMeSection p {
+    width: 70%;
+    text-align: center;
+    border: 5px solid green;
+    margin: 0 auto;
+    margin-top: 2rem;
+    color: rgb(250, 250, 250);
+    
+
 }
 
 .profileImage {
-    border: 2px solid #d1d5db;
   border-radius: 0px 50% 50% 50%;
-
-  position: absolute;
-  top: 90px;
   z-index: 1;
-  height: auto;
-  max-width: 50%;
-  width: 400px;      
+  width: 25rem; 
+  max-width: 100%;
+  border: 5px solid green; 
+  margin: 0 auto;
+  
+  
+   
 }
 
-h1 { 
-    text-align: center;
-    font-size: 100px; 
-    border: 1px solid rgb(96, 16, 215);   
+.aboutMeSection h1 { 
+    font-size: 3.5rem; 
+    color: rgb(250, 250, 250);
+    border: 5px solid green;
+    margin: 0 auto;
+    max-width: 80%;
+    margin-top: 2rem;     
 }
 
+.theBeginning {
+   flex: 0 0 25%;
+}
 
+.themiddle {
+    flex: 0 0 25%;
+}
 
+.theEnd {
+    flex: 0 0 25%;
+}
 
 /*blurb*/
 
-section {
-    display: inline-block;
-    width: 25%;
-    margin: auto;
-    padding: 20px;
-    border: 5px solid rgb(11, 4, 22);
+.aboutMeText {
+
+   border: 3px solid rgb(38, 34, 240);
+   display: flex;
+   margin: 0 auto; 
+   flex-direction: row;
+   justify-content: space-evenly;
+   max-width: 50%;
+   
 }
+
+@media only screen and (max-width: 1500px) {
+    .aboutMeText {
+        flex-direction: column;
+        align-content: center;
+    }
+}
+
+
+
+section {
+    border: 3px solid rgb(231, 101, 119);
+    max-width: 50%;
+    margin: 2rem; 
+    max-height: 50%;   
+     
+}
+
+
 
 section h3 {
     text-align: center;
+    border: 3px solid rgb(76, 13, 21);
 }
 
 
@@ -74,10 +130,10 @@ section h3 {
  /* Skills section */
 
 .skills {
-    margin-top: 15%; 
-    display: flex;
+    border: 3px solid rgb(218, 187, 48);
+    margin-top: 3%; 
+    
     justify-content: center;
-    border: 5px solid rgb(62, 16, 215);
     display: inline-block;
     max-width: 100%;
     width: 100%;
@@ -85,14 +141,12 @@ section h3 {
 }
 
 .skills h2 {
-    border: 5px solid rgb(209, 245, 50);
     max-width: 100%;
     width: 100%;
     height: 50px;
     text-align: center;
 }
 .skillLogos {
-   border: 5px solid rgb(38, 125, 53);
    max-width: 100%;
    height: auto;
    display: flex;
@@ -103,7 +157,6 @@ article {
    margin-top: 15%; 
    display: flex;
    justify-content: center;
-   border: 5px solid rgb(215, 155, 16);
 }
 
 
@@ -112,6 +165,6 @@ article {
 /*footer*/
 
 footer {
-    background-color: rgb(193, 227, 245);
+    background-color: rgb(177, 177, 190);
+    height: 5rem;
 }
-
