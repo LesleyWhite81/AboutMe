@@ -1,4 +1,12 @@
-.HomeBanner {
+main {
+    border: 5px solid rgb(240, 23, 157);
+}
+
+
+  
+  /* Navigation and page banner */
+  
+  .HomeBanner {
   background-color: rgb(193, 227, 245);
     
   border: 1px solid red;
@@ -25,39 +33,28 @@ li {
     border: 1px solid rgb(215, 155, 16);
 }
 
+.profileImage {
+    border: 2px solid #d1d5db;
+  border-radius: 0px 50% 50% 50%;
 
-
-img {
-     
-     /* Border */
-     border: 2px solid #d1d5db;
-     border-radius: 0px 50% 50% 50%;
-
-     position: absolute;
-     top: 90px;
-     z-index: 1;
-    height: auto;
-    max-width: 50%;
-    width: 400px; 
-     
-     
+  position: absolute;
+  top: 90px;
+  z-index: 1;
+  height: auto;
+  max-width: 50%;
+  width: 400px;      
 }
 
 h1 { 
     text-align: center;
     font-size: 100px; 
-    border: 1px solid rgb(96, 16, 215);
-
-   
+    border: 1px solid rgb(96, 16, 215);   
 }
 
-article {
-   margin-top: 15%; 
-   display: flex;
-   justify-content: center;
-   border: 5px solid rgb(215, 155, 16);
-}
 
+
+
+/*blurb*/
 
 section {
     display: inline-block;
@@ -71,11 +68,50 @@ section h3 {
     text-align: center;
 }
 
+
+
+
+ /* Skills section */
+
+.skills {
+    margin-top: 15%; 
+    display: flex;
+    justify-content: center;
+    border: 5px solid rgb(62, 16, 215);
+    display: inline-block;
+    max-width: 100%;
+    width: 100%;
+
+}
+
+.skills h2 {
+    border: 5px solid rgb(209, 245, 50);
+    max-width: 100%;
+    width: 100%;
+    height: 50px;
+    text-align: center;
+}
+.skillLogos {
+   border: 5px solid rgb(38, 125, 53);
+   max-width: 100%;
+   height: auto;
+   display: flex;
+   justify-content: center;
+}
+
+article {
+   margin-top: 15%; 
+   display: flex;
+   justify-content: center;
+   border: 5px solid rgb(215, 155, 16);
+}
+
+
+
+
+/*footer*/
+
 footer {
     background-color: rgb(193, 227, 245);
-
 }
 
-main {
-    border: 5px solid rgb(240, 23, 157);
-}
