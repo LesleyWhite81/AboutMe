@@ -11,21 +11,43 @@ main {
 
 
 nav {
-    text-align: end;  
-    background-color: rgb(177, 177, 190);
-
+    text-align: right;  
+    background-color: rgb(177, 177, 190);border: 1px solid rgb(98, 0, 255);
+    
 }
 
 nav ul {
     list-style-type:none;
     
+    
+    
+}
+
+.logo {
+    background-color: rgb(205, 205, 218);
+    height: 4rem;
+    width: 5rem;
+    display: inline-block;
+    float: left;
+    border-radius: 0% 50% 50% 50%;
+    
+}
+
+.logoName {
+    height: 2rem;
+    width: 10rem; 
+    position: absolute;   
+    left: 4.75rem;
+    top: 2.25rem;
+    display: inline-block;
+    font-family:'Kalam', cursive;
+    font-size: 1.75rem;
 }
 
 li {
     display: inline-block;
     padding: 20px;
     color:aliceblue;
-    
 }
 
 .topSection {
