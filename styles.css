@@ -51,64 +51,54 @@ li {
     color:aliceblue;
 }
 
-.topSection {
-    display: flex;
-}
 
 .aboutMeSection {
-        display: flex;
-        flex-basis:  100%;
-}
+    display: flex;
+       
+    padding: 60px 50px 60px;  
+    height: 85%;
+    max-width: 80%;    
+    margin: 0 auto; 
+    }
 
 @media only screen and (max-width: 1768px) {
     .aboutMeSection {
         max-width: 100%;
         }
 }
-      
-.aboutMeBackground {
-      background-color: rgb(205, 205, 218);
-      height: 85%;
-      border-radius: 0px 0% 50% 0%;   
-      padding: 60px 50px 60px;  
-               
-}
 
-
-
-.aboutMeSection p {
-    width: 70%;
-    text-align: center;
-    margin: 0 auto;
-    margin-top: 2rem;
-    color: rgb(250, 250, 250);
+.imageContainer {
     
-
-}
+    flex-grow: 4;
+}    
 
 .profileImage {
   border-radius: 0px 50% 50% 50%;
   z-index: 1;
   width: 25rem; 
-  max-width: 100%;
-  margin: 0 auto;
-  
-  
-   
+  max-width: 100%;  
 }
 
-.aboutMeSection h1 { 
+
+
+.aboutMeText h1 { 
     font-size: 3rem; 
-    color: rgb(250, 250, 250);
-    margin: 0 auto;
-    max-width: 100%;
-    margin-top: 2rem;     
-    border: 1px solid red;
-    text-align: center;
+    color: rgb(0, 0, 0);
+    max-width: 100%;  
+    float: right; 
+    padding-right: 5rem; 
+    margin:auto 0;  
+}
+
+.aboutMeText p {
+    width: 50%;
+    float: right;   
+    padding-right: 5rem;
 }
 
 .theBeginning {
     flex: 0 0 30%;
+    
  }
 
 .themiddle {
@@ -121,13 +111,16 @@ li {
 
 /*blurb*/
 
-.aboutMeText {
+.history {
    display: flex;
    margin: 0 auto; 
    flex-direction: row;
    justify-content: space-evenly;
-   max-width: 60%;   
+   max-width: 100%;   
    padding-left: 2rem;
+   
+   background-color: white;
+   
    
 }
 
@@ -142,8 +135,7 @@ li {
 
 
 section {
-    max-width: 50%;
-    
+    max-width: 50%;    
     max-height: 50%;  
     margin: 8rem 2rem;
     
