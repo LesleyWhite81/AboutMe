@@ -18,10 +18,7 @@ nav {
 }
 
 nav ul {
-    list-style-type:none;
-    
-    
-    
+    list-style-type:none;    
 }
 
 .logo {
@@ -54,22 +51,62 @@ li {
 
 .aboutMeSection {
     display: flex;
-       
     padding: 60px 50px 60px;  
     height: 85%;
     max-width: 80%;    
     margin: 0 auto; 
+    padding: 10rem 0rem;
+    border: 1px solid rgb(42, 151, 146); 
     }
 
-@media only screen and (max-width: 1768px) {
-    .aboutMeSection {
-        max-width: 100%;
-        }
+.aboutMeContainer {
+    max-width: 50%;   
+    border: 1px solid rgb(240, 39, 39); 
+    flex-grow: 4;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+/*.aboutMeText {
+    border: 1px solid green; 
+    max-width: 50%;  
+    
+    float: right;
+}*/
+
+.aboutMeContainer h1 { 
+    font-size: 3rem; 
+    color: rgb(0, 0, 0);      
+    margin-left: auto;
+    padding: 1rem 5rem 2rem; 
+    max-width: 50%;   
+    border: 1px solid green; 
+}
+
+.aboutMeContainer p {
+    float: right;   
+    padding: 0rem 5rem 2rem;
+    margin-left: auto; 
+    max-width: 50%;
+    border: 1px solid green;
+}
+
+button {
+    height: 2rem;
+    background-color: rgb(219, 219, 230);
+    border-radius: 5px;
+    border: 0.5px solid rgb(199, 199, 230);
+    
+    max-width: 5rem;
+    margin-left: auto;
+    margin-right: 3rem;
+          
 }
 
 .imageContainer {
-    
     flex-grow: 4;
+    border: 1px solid green;
 }    
 
 .profileImage {
@@ -81,20 +118,7 @@ li {
 
 
 
-.aboutMeText h1 { 
-    font-size: 3rem; 
-    color: rgb(0, 0, 0);
-    max-width: 100%;  
-    float: right; 
-    padding-right: 5rem; 
-    margin:auto 0;  
-}
 
-.aboutMeText p {
-    width: 50%;
-    float: right;   
-    padding-right: 5rem;
-}
 
 .theBeginning {
     flex: 0 0 30%;
@@ -125,19 +149,14 @@ li {
 }
 
 
-@media only screen and (max-device-width: 2100px) {
-    .aboutMeText {
-        flex-direction: column;
-        max-width: 50%;
-        padding: 3rem;
-    }
-}
+
 
 
 section {
     max-width: 50%;    
     max-height: 50%;  
     margin: 8rem 2rem;
+    
     
      
 }
