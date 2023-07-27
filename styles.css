@@ -18,7 +18,8 @@ nav {
 }
 
 nav ul {
-    list-style-type:none;    
+    list-style-type:none; 
+    margin-right: 10rem;   
 }
 
 .logo {
@@ -40,6 +41,7 @@ nav ul {
     display: inline-block;
     font-family:'Kalam', cursive;
     font-size: 1.75rem;
+    
 }
 
 li {
@@ -56,16 +58,15 @@ li {
     max-width: 80%;    
     margin: 0 auto; 
     padding: 10rem 0rem;
-    border: 1px solid rgb(42, 151, 146); 
+    flex-flow: row wrap;
     }
 
 .aboutMeContainer {
     max-width: 50%;   
-    border: 1px solid rgb(240, 39, 39); 
     flex-grow: 4;
-    display: flex;
+    display: flex;   
     flex-direction: column;
-    
+    align-content: flex-start;
 }
 
 /*.aboutMeText {
@@ -79,35 +80,36 @@ li {
     font-size: 3rem; 
     color: rgb(0, 0, 0);      
     margin-left: auto;
-    padding: 1rem 5rem 2rem; 
+    padding: 1rem 5rem 0rem; 
     max-width: 50%;   
-    border: 1px solid green; 
-}
+    }
+
 
 .aboutMeContainer p {
     float: right;   
     padding: 0rem 5rem 2rem;
-    margin-left: auto; 
+    margin-left: auto;
     max-width: 50%;
-    border: 1px solid green;
+    color: #3f3d3d;
+    line-height: 1.5rem;
 }
 
 button {
     height: 2rem;
     background-color: rgb(219, 219, 230);
     border-radius: 5px;
-    border: 0.5px solid rgb(199, 199, 230);
-    
+    border: 0.5px solid rgb(199, 199, 230);    
     max-width: 5rem;
-    margin-left: auto;
-    margin-right: 3rem;
-          
+    margin: auto;
+    
+   
+    
 }
 
 .imageContainer {
     flex-grow: 4;
-    border: 1px solid green;
-}    
+    margin-top: 2rem; 
+    }    
 
 .profileImage {
   border-radius: 0px 50% 50% 50%;
@@ -148,6 +150,9 @@ button {
    
 }
 
+.javascript {
+    display: none;
+}
 
 
 
@@ -179,13 +184,14 @@ section h3 {
  /* Skills section */
 
 .skills {
-    margin-top: 3%;
+    margin-top: 1%;
     justify-content: center;
     display: inline-block;
     max-width: 100%;
     width: 100%;
-    background-color: rgb(234, 234, 238);
+    background-color: rgb(255, 255, 255);
     padding: 1rem;
+    
 }
 
 
@@ -214,6 +220,5 @@ article {
 
 footer {
     background-color: rgb(241, 240, 238);
-    
     height: 5rem;
 }
