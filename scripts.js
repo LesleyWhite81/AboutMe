@@ -1,7 +1,7 @@
-let logo = document.getElementsByClassName('Logo');
+let button = document.getElementByTagName("button");
 
-turnLogoGrey = () => {
-    logo.style.color = 'grey'
+turnButtonBlue = () => {
+    button.style.color = 'blue'
 }
 
-logo.onclick = turnLogoGrey;
+button.mouseover = turnButtonBlue;

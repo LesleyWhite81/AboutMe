@@ -53,12 +53,12 @@ li {
 
 .aboutMeSection {
     display: flex;
-    padding: 60px 50px 60px;  
     height: 85%;
-    max-width: 80%;    
+    max-width: 75%;    
     margin: 0 auto; 
-    padding: 10rem 0rem;
+    padding: 5rem 0rem;
     flex-flow: row wrap;
+    border: 1px solid blue;
     }
 
 .aboutMeContainer {
@@ -96,26 +96,26 @@ li {
 
 button {
     height: 2rem;
-    background-color: rgb(219, 219, 230);
+    background-color: rgb(252, 252, 252);
     border-radius: 5px;
-    border: 0.5px solid rgb(199, 199, 230);    
+    border: 0.5px solid rgb(219, 219, 230);    
     max-width: 5rem;
     margin: auto;
-    
-   
-    
+    border-radius: 2px;
 }
 
 .imageContainer {
-    flex-grow: 4;
     margin-top: 2rem; 
+    border: 1px solid red;
+    
     }    
 
 .profileImage {
   border-radius: 0px 50% 50% 50%;
   z-index: 1;
   width: 25rem; 
-  max-width: 100%;  
+  max-width: 100%; 
+   
 }
 
 
